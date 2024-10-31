@@ -6,7 +6,8 @@
     <title>Formularios</title>
   </head>
   <body>
-    <form action="" method="">
+    <!-- Etiqueta form -->
+    <form action="/procesar" method="get">
       <input type="text" name="nombre" required />
       <input type="search" required />
       <input type="phone" />
@@ -21,5 +22,36 @@
       <input type="color" />
       <input type="file" accept=".docx" multiple />
     </form>
+
+    <!-- Etiqueta TextArea -->
+    <textarea name="comentario" id="comentario" rows="4" cols="30"></textarea>
+
+    <!-- Etiqueta Select -->
+    <span>Seleccione su nombre: </span>
+    <select name="nombres" id="nombre">
+      <option value="jose">Jose</option>
+      <option value="maria">Maria</option>
+      <option value="sandra">Sandra</option>
+    </select>
+
+    <!-- Etiqueta Label -->
+    <label for="nombre" id="nombre" name="nombre">Nombre: </label>
+    <input type="text" />
+    <label for="nombre" id="nombre" name="nombre">Contraseña: </label>
+    <input type="password" />
+
+    <!-- Etiqueta Fieldset -->
+    <fieldset>
+      <legend>Contacto</legend>
+      <label for="nombre">Nombre: </label>
+      <input type="text" />
+      <fieldset>
+        <label for="contrase">Contraseña: </label>
+        <input type="password" />
+      </fieldset>
+    </fieldset>
+
+    <!-- Etiqueta buttum -->
+    <button type="submit">Enviar</button>
   </body>
 </html>

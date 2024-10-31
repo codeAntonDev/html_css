@@ -7,22 +7,21 @@
   </head>
   <body>
     <!-- <img
-      src="./images/gatito-1200.jpg"
+      src="./images/gatito-300.jpg"
       alt="Muestra un gatito"
       width="300"
       height="200"
       title="Gatitos lindo"
-      loading="auto"
-      srcset="gatito-1200 2x"
+      srcset="./images/gatito-600.jpg 2x, ./images/gatito-1200.jpg 3x"
     /> -->
     <!-- <figure>
       <img src="./images/perro.jpg" alt="Perrito" width="200" height="200" />
       <figcaption>Esta imagen es de un perro</figcaption>
     </figure> -->
-    <!-- <picture>
-      <source media="(min-widht:1200px)" srcset="./images/gatito-1200" />
-      <source media="(min-widht:600)" srcset="./gatito-600.jpg" />
-      <img src="../Clase02/images/gatito-300.jpg" alt="Gatito" width="300" />
-    </picture> -->
+    <picture>
+      <source media="(min-width:1200px)" srcset="./images/gatito-1200.jpg" />
+      <source media="(min-width:600px)" srcset="./images/gatito-600.jpg" />
+      <img src="./images/gatito-300.jpg" alt="Gatito" width="300" />
+    </picture>
   </body>
 </html>
