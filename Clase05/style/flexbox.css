@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  font-size: 90px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 55px;
+  justify-content: space-between;
+}

@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+div {
+  padding: 20px;
+  margin: 0 50px 0 50px;
+}
+
+div p {
+  display: inline;
+}
+
+p {
+  font-size: 50px;
+  background-color: red;
+  /* width: 500px; */
+  padding: 0px;
+  margin: 10% 10%;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 90px;
+}

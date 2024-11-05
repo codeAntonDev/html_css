@@ -1,0 +1,49 @@
+.navegacion ul a {
+  color: rgb(238, 255, 0);
+}
+
+nav ul {
+  color: green;
+}
+
+ul {
+  color: blue;
+}
+/* 
+#p-text-id {
+  color: orange;
+}
+
+.p-text-clase {
+  color: green;
+} */
+nav .list-navegacion {
+  color: blanchedalmond;
+}
+
+/* Pseudoclases */
+.list-footer {
+  list-style: none;
+  background: skyblue;
+}
+
+.list-nav_footer {
+  display: inline;
+}
+
+.list-footer a {
+  color: red;
+  text-decoration: none;
+}
+
+.list-footer a:hover {
+  color: blue;
+}
+
+.list-footer a:active {
+  color: green;
+}
+
+.list-footer a::before {
+  content: " | ";
+}

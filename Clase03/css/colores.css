@@ -1,0 +1,27 @@
+/* Colores Primarios */
+/* h1 {
+  color: pink;
+  font-size: 90px;
+} */
+
+/* Colores Hexadecimales */
+/* h1 {
+  color: #ddffdd;
+  font-size: 90px;
+} */
+
+/* Colores RGB */
+h1 {
+  color: rgb(0, 0, 0, 0.6);
+  font-size: 80px;
+  background-color: aqua;
+  height: 300px;
+  width: 1050px;
+}
+
+span {
+  font-size: 80px;
+  background-color: red;
+  height: 500px;
+  width: 1000px;
+}
